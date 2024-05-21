@@ -42,12 +42,12 @@ const ContactUs = () => {
                 </p>
                 <hr className='chairperson_separate_line' />
                 <p className="chairperson_name">
-                    陳冠勳
+                    簡惠心
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:andychen.ee11@nycu.edu.tw'>
                     <HiOutlineMail size={windowSize.innerWidth * 0.021} className='chairperson_email_icon' />
                     <p className="chairperson_email">
-                        andychen.ee11@nycu.edu.tw
+                    comet112511092.ee12@nycu.edu.tw
                     </p>
                 </a>
                 <p className="vice_president_title">
@@ -55,63 +55,45 @@ const ContactUs = () => {
                 </p>
                 <hr className='vice_president_separate_line' />
                 <p className="vice_president_1_name">
-                    陳均凱
+                    潘仰祐
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:kaicapx5@gmail.com'>
                     <HiOutlineMail size={windowSize.innerWidth * 0.021} className='vice_president_1_email_icon' />
                     <p className="vice_president_1_email">
-                        kaicapx5@gmail.com
+                    kevinpan.cs12@nycu.edu.tw
                     </p>
                 </a>
 
-                <p className="vice_president_2_name">
-                    羅方辰
-                </p>
-                <a target="_blank" rel="noreferrer" href='mailto:lfc.ee11@nycu.edu.tw'>
-                    <HiOutlineMail size={windowSize.innerWidth * 0.021} className='vice_president_2_email_icon' />
-                    <p className="vice_president_2_email">
-                        lfc.ee11@nycu.edu.tw
-                    </p>
-                </a>
 
                 <p className="teaching_leader_title">
                     教學
                 </p>
                 <hr className='teaching_leader_separate_line' />
                 <p className="teaching_leader_name">
-                    王信諺
+                曾豊茗
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:alex930211@gmail.com'>
                     <HiOutlineMail size={windowSize.innerWidth * 0.021} className='teaching_leader_email_icon' />
                     <p className="teaching_leader_email">
-                        alex930211@gmail.com
+                    liming0724.ee12@nycu.edu.tw
                     </p>
                 </a>
                 <p className="teaching_leader2_name">
-                    張峻魁
+                   林子鈞 
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:quick0831.ee11@nycu.edu.tw'>
                     <HiOutlineMail size={windowSize.innerWidth * 0.021} className='teaching_leader2_email_icon' />
                     <p className="teaching_leader2_email">
-                        quick0831.ee11@nycu.edu.tw
+                    tommy2131.cs12@nycu.edu.tw
                     </p>
                 </a>
                 <p className="teaching_leader3_name">
-                    林俐岑
+                 呂杰軒 
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:yuna111511176.ee11@nycu.edu.tw'>
                     <HiOutlineMail size={windowSize.innerWidth * 0.021} className='teaching_leader3_email_icon' />
                     <p className="teaching_leader3_email">
-                        yuna111511176.ee11@nycu.edu.tw
-                    </p>
-                </a>
-                <p className="teaching_leader4_name">
-                    張家睿
-                </p>
-                <a target="_blank" rel="noreferrer" href='mailto:qulip.louis.0126@gmail.com'>
-                    <HiOutlineMail size={windowSize.innerWidth * 0.021} className='teaching_leader4_email_icon' />
-                    <p className="teaching_leader4_email">
-                        qulip.louis.0126@gmail.com
+                    eric.lu.cs12@nycu.edu.tw
                     </p>
                 </a>
                 <p className="PR_title">
@@ -119,52 +101,34 @@ const ContactUs = () => {
                 </p>
                 <hr className='PR_separate_line' />
                 <p className="PR_name">
-                    蕭佳蘋
+                何昕恩
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:pineapple168.mg11@nycu.edu.tw'>
                     <HiOutlineMail size={windowSize.innerWidth * 0.021} className='PR_email_icon' />
                     <p className="PR_email">
-                        pineapple168.mg11@nycu.edu.tw
+                    ayana.ee12@nycu.edu.tw
                     </p>
                 </a>
                 <p className="PR2_name">
-                    莊采蒨
+                張芷瑄
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:caician.ee11@nycu.edu.tw'>
                     <HiOutlineMail size={windowSize.innerWidth * 0.021} className='PR2_email_icon' />
                     <p className="PR2_email">
-                        caician.ee11@nycu.edu.tw
-                    </p>
-                </a>
-                <p className="PR3_name">
-                    林晨筠
-                </p>
-                <a target="_blank" rel="noreferrer" href='mailto:chenyunlin105.ee11@nycu.edu.tw'>
-                    <HiOutlineMail size={windowSize.innerWidth * 0.021} className='PR3_email_icon' />
-                    <p className="PR3_email">
-                        chenyunlin105.ee11@nycu.edu.tw
+                    zhixuan900422@gmail.com
                     </p>
                 </a>
                 <p className="AD_title">
-                    美宣
+                    教學兼美宣
                 </p>
                 <hr className='AD_separate_line' />
                 <p className="AD_1_name">
-                    林宏恩
+                    洪翠憶
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:neonlight0312@gmail.com'>
                     <HiOutlineMail size={windowSize.innerWidth * 0.021} className='AD_1_email_icon' />
                     <p className="AD_1_email">
-                        neonlight0312@gmail.com
-                    </p>
-                </a>
-                <p className="AD_2_name">
-                    簡安庭
-                </p>
-                <a target="_blank" rel="noreferrer" href='mailto:macplanck.ee11@nycu.edu.tw'>
-                    <HiOutlineMail size={windowSize.innerWidth * 0.021} className='AD_2_email_icon' />
-                    <p className="AD_2_email">
-                        macplanck.ee11@nycu.edu.tw
+                    k112700044.mg12@nycu.edu.tw
                     </p>
                 </a>
                 <p className="doc_title">
@@ -172,12 +136,12 @@ const ContactUs = () => {
                 </p>
                 <hr className='doc_separate_line' />
                 <p className="doc_name">
-                    胡至姍
+                    呂沁儒
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:chihshan.ee11@nycu.edu.tw'>
                     <HiOutlineMail size={windowSize.innerWidth * 0.021} className='doc_email_icon' />
                     <p className="doc_email">
-                        chihshan.ee11@nycu.edu.tw
+                    chinju.ee12@nycu.edu.tw
                     </p>
                 </a>
                 <p className="GA_title">
@@ -185,15 +149,15 @@ const ContactUs = () => {
                 </p>
                 <hr className='GA_separate_line' />
                 <p className="GA_name">
-                    許芝榕
+                    王嵐
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:sharon111652027.sc11@nycu.edu.tw'>
                     <HiOutlineMail size={windowSize.innerWidth * 0.021} className='GA_email_icon' />
                     <p className="GA_email">
-                        sharon111652027.sc11@nycu.edu.tw
+                    lan.ee12@nycu.edu.tw
                     </p>
                 </a>
-                <p className="GA2_name">
+                {/* <p className="GA2_name">
                     彭弈睿
                 </p>
                 <a target="_blank" rel="noreferrer" href='mailto:ray.ee11@nycu.edu.tw'>
@@ -214,7 +178,7 @@ const ContactUs = () => {
                     <p className="internet_manager_email">
                         caician.ee11@nycu.edu.tw
                     </p>
-                </a>
+    </a> */}
             </div>
         </div >
     );
