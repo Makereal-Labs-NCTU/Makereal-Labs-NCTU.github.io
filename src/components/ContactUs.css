@@ -144,7 +144,7 @@
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 2.5vw;
     position: absolute;
-    top: 83vw;
+    top: 91vw;
     left: 55vw;
     color: #16236e;
     letter-spacing: 0.1vw;
@@ -158,40 +158,11 @@
     height: 0.2vw;
     position: absolute;
     left: 55vw;
-    top: 88.6vw;
+    top: 96.6vw;
     background: #16236e;
 }
 
 .PR_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 89vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.PR_email_icon {
-    position: absolute;
-    top: 94vw;
-    left: 55vw;
-    color: #16236e;
-}
-
-.PR_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 91.5vw;
-    left: 58vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.PR2_name {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 2vw;
     position: absolute;
@@ -202,14 +173,14 @@
     line-height: 2vw;
 }
 
-.PR2_email_icon {
+.PR_email_icon {
     position: absolute;
     top: 102vw;
     left: 55vw;
     color: #16236e;
 }
 
-.PR2_email {
+.PR_email {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 1.5vw;
     position: absolute;
@@ -220,7 +191,7 @@
     line-height: 4vw;
 }
 
-.PR3_name {
+.PR2_name {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 2vw;
     position: absolute;
@@ -231,9 +202,38 @@
     line-height: 2vw;
 }
 
-.PR3_email_icon {
+.PR2_email_icon {
     position: absolute;
     top: 110vw;
+    left: 55vw;
+    color: #16236e;
+}
+
+.PR2_email {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 107.5vw;
+    left: 58vw;
+    color: #16236e;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+}
+
+.PR3_name {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2vw;
+    position: absolute;
+    top: 113vw;
+    left: 55vw;
+    color: #16236e;
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+}
+
+.PR3_email_icon {
+    position: absolute;
+    top: 118vw;
     left: 55vw;
     color: #16236e;
 }
@@ -242,7 +242,7 @@
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 1.5vw;
     position: absolute;
-    top: 107.5vw;
+    top: 115.5vw;
     left: 58vw;
     color: #16236e;
     letter-spacing: 0.1vw;
@@ -387,6 +387,35 @@
     line-height: 4vw;
 }
 
+.teaching_leader5_name {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2vw;
+    position: absolute;
+    top: 113vw;
+    left: 5vw;
+    color: #16236e;
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+}
+
+.teaching_leader5_email_icon {
+    position: absolute;
+    top: 118vw;
+    left: 5vw;
+    color: #16236e;
+}
+
+.teaching_leader5_email {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 115.5vw;
+    left: 8vw;
+    color: #16236e;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+}
+
 .vice_president_title {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 2.5vw;
@@ -467,6 +496,35 @@
     line-height: 4vw;
 }
 
+.vice_president_3_name {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2vw;
+    position: absolute;
+    top: 82vw;
+    left: 55vw;
+    color: #16236e;
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+}
+
+.vice_president_3_email_icon {
+    position: absolute;
+    top: 87vw;
+    left: 55vw;
+    color: #16236e;
+}
+
+.vice_president_3_email {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 84.5vw;
+    left: 58vw;
+    color: #16236e;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap');
 
 
@@ -474,7 +532,7 @@
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 2.5vw;
     position: absolute;
-    top: 114vw;
+    top: 122vw;
     left: 5vw;
     color: #16236e;
     letter-spacing: 0.1vw;
@@ -488,7 +546,7 @@
     height: 0.2vw;
     position: absolute;
     left: 5vw;
-    top: 119.6vw;
+    top: 127.6vw;
     background: #16236e;
 }
 
@@ -496,7 +554,7 @@
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 2vw;
     position: absolute;
-    top: 120vw;
+    top: 128vw;
     left: 5vw;
     color: #16236e;
     letter-spacing: 0.1vw;
@@ -505,7 +563,7 @@
 
 .AD_1_email_icon {
     position: absolute;
-    top: 125vw;
+    top: 133vw;
     left: 5vw;
     color: #16236e;
 }
@@ -514,7 +572,7 @@
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 1.5vw;
     position: absolute;
-    top: 122.5vw;
+    top: 130.5vw;
     left: 8vw;
     color: #16236e;
     letter-spacing: 0.1vw;
@@ -605,7 +663,7 @@
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 2.5vw;
     position: absolute;
-    top: 114vw;
+    top: 122vw;
     left: 55vw;
     color: #16236e;
     letter-spacing: 0.1vw;
@@ -619,40 +677,11 @@
     height: 0.2vw;
     position: absolute;
     left: 55vw;
-    top: 119.6vw;
+    top: 127.6vw;
     background: #16236e;
 }
 
 .GA_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 120vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.GA_email_icon {
-    position: absolute;
-    top: 125vw;
-    left: 55vw;
-    color: #16236e;
-}
-
-.GA_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 122.5vw;
-    left: 58vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.GA2_name {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 2vw;
     position: absolute;
@@ -663,18 +692,69 @@
     line-height: 2vw;
 }
 
-.GA2_email_icon {
+.GA_email_icon {
     position: absolute;
     top: 133vw;
     left: 55vw;
     color: #16236e;
 }
 
-.GA2_email {
+.GA_email {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 1.5vw;
     position: absolute;
     top: 130.5vw;
+    left: 58vw;
+    color: #16236e;
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+}
+
+.WM_title {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 137vw;
+    left: 55vw;
+    color: #16236e;
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+}
+
+.WM_separate_line {
+    color: #16236e;
+    border-color: #16236e;
+    width: 20vw;
+    height: 0.2vw;
+    position: absolute;
+    left: 55vw;
+    top: 142.6vw;
+    background: #16236e;
+}
+
+.WM_name {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2vw;
+    position: absolute;
+    top: 143vw;
+    left: 55vw;
+    color: #16236e;
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+}
+
+.WM_email_icon {
+    position: absolute;
+    top: 148vw;
+    left: 55vw;
+    color: #16236e;
+}
+
+.WM_email {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 145.5vw;
     left: 58vw;
     color: #16236e;
     letter-spacing: 0.1vw;
