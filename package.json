@@ -31,6 +31,10 @@
   "reactSnap": {
     "inlineCss": true,
     "skipThirdPartyRequests": false,
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
     "puppeteerOptions": {
       "headless": true
     }
