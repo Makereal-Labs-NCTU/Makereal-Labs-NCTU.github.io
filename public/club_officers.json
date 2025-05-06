@@ -1,10 +1,4 @@
 {
-    "chairperson": [
-        {
-            "name": "陳逸安",
-            "email": "yianchen.ee13@nycu.edu.tw"
-        }
-    ],
     "AD": [
         {
             "name": "蔡俊則",
@@ -21,10 +15,14 @@
             "email": "antoniotkyang.cs13@nycu.edu.tw"
         }
     ],
-    "doc": [
+    "Cloud": [
         {
             "name": "魏靖彤",
             "email": "evawei456@gmail.com"
+        },
+        {
+            "name": "張雅安",
+            "email": "buioyc1129euuio@gmail.com"
         }
     ],
     "PR": [
@@ -61,12 +59,6 @@
         {
             "name": "劉以翔",
             "email": "viecon342524.cs13@nycu.edu.tw"
-        }
-    ],
-    "Cloud": [
-        {
-            "name": "張雅安",
-            "email": "buioyc1129euuio@gmail.com"
         }
     ],
     "Web": [
@@ -107,6 +99,12 @@
         {
             "name": "劉亭妤",
             "email": "doratyliu@gmail.com"
+        }
+    ],
+    "chairperson": [
+        {
+            "name": "陳逸安",
+            "email": "yianchen.ee13@nycu.edu.tw"
         }
     ],
     "MIS": [
