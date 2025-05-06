@@ -15,14 +15,10 @@
             "email": "antoniotkyang.cs13@nycu.edu.tw"
         }
     ],
-    "Cloud": [
+    "doc": [
         {
             "name": "魏靖彤",
             "email": "evawei456@gmail.com"
-        },
-        {
-            "name": "張雅安",
-            "email": "buioyc1129euuio@gmail.com"
         }
     ],
     "PR": [
@@ -59,6 +55,12 @@
         {
             "name": "劉以翔",
             "email": "viecon342524.cs13@nycu.edu.tw"
+        }
+    ],
+    "Cloud": [
+        {
+            "name": "張雅安",
+            "email": "buioyc1129euuio@gmail.com"
         }
     ],
     "Web": [
