@@ -1,692 +1,90 @@
 .club_officers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    padding: 3vw;
+    justify-content: center;
     background-color: white;
-    height: 105vw;
-}
-
-.chairperson_title {
     font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  .officer_section {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    min-width: 250px;
+    max-width: 400px;
+    margin: 1vw;
+    color: #16236e;
+  }
+  
+  .officer_title {
     font-size: 2.5vw;
-    position: absolute;
-    top: 60vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.chairperson_name {
-    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5vw;
+  }
+  
+  .officer_line {
+    border: none;
+    width: 100%;
+    height: 4px;
+    background-color: #16236e;
+  }
+  
+  .officer_member {
+    margin-top: 0.5vw;
+  }
+  
+  .officer_name {
     font-size: 2vw;
-    position: absolute;
-    top: 66vw;
-    left: 5vw;
+    margin: 0vw;
+  }
+  
+  .officer_email_wrapper {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .officer_icon {
     color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.chairperson_email_icon {
-    position: absolute;
-    top: 71vw;
-    left: 5vw;
-    color: #16236e;
-}
-
-.chairperson_email {
-    font-family: 'Noto Sans TC', sans-serif;
+    margin-right: 0.5vw;
     font-size: 1.5vw;
-    position: absolute;
-    top: 68.5vw;
-    left: 8vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.chairperson_phone_icon {
-    position: absolute;
-    top: 74vw;
-    left: 5.15vw;
-    color: #16236e;
-}
-
-.chairperson_phone {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 71.3vw;
-    left: 8vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.chairperson_separate_line {
-    color: #16236e;
-    border-color: #16236e;
-    width: 20vw;
-    height: 0.2vw;
-    position: absolute;
-    left: 5vw;
-    top: 65.6vw;
-    background: #16236e;
-}
-
-.PR_title {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2.5vw;
-    position: absolute;
-    top: 91vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.PR_separate_line {
-    color: #16236e;
-    border-color: #16236e;
-    width: 20vw;
-    height: 0.2vw;
-    position: absolute;
-    left: 55vw;
-    top: 96.6vw;
-    background: #16236e;
-}
-
-.PR_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 97vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.PR_email_icon {
-    position: absolute;
-    top: 102vw;
-    left: 55vw;
-    color: #16236e;
-}
-
-.PR_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 99.5vw;
-    left: 58vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.PR2_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 105vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.PR2_email_icon {
-    position: absolute;
-    top: 110vw;
-    left: 55vw;
-    color: #16236e;
-}
-
-.PR2_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 107.5vw;
-    left: 58vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.PR3_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 113vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.PR3_email_icon {
-    position: absolute;
-    top: 118vw;
-    left: 55vw;
-    color: #16236e;
-}
-
-.PR3_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 115.5vw;
-    left: 58vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.teaching_leader_title {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2.5vw;
-    position: absolute;
-    top: 75vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.teaching_leader_separate_line {
-    color: #16236e;
-    border-color: #16236e;
-    width: 20vw;
-    height: 0.2vw;
-    position: absolute;
-    left: 5vw;
-    top: 80.6vw;
-    background: #16236e;
-}
-
-.teaching_leader_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 81vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.teaching_leader_email_icon {
-    position: absolute;
-    top: 86vw;
-    left: 5vw;
-    color: #16236e;
-}
-
-.teaching_leader_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 83.5vw;
-    left: 8vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.teaching_leader2_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 89vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.teaching_leader2_email_icon {
-    position: absolute;
-    top: 94vw;
-    left: 5vw;
-    color: #16236e;
-}
-
-.teaching_leader2_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 91.5vw;
-    left: 8vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.teaching_leader3_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 97vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.teaching_leader3_email_icon {
-    position: absolute;
-    top: 102vw;
-    left: 5vw;
-    color: #16236e;
-}
-
-.teaching_leader3_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 99.5vw;
-    left: 8vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.teaching_leader4_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 105vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.teaching_leader4_email_icon {
-    position: absolute;
-    top: 110vw;
-    left: 5vw;
-    color: #16236e;
-}
-
-.teaching_leader4_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 107.5vw;
-    left: 8vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.teaching_leader5_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 113vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.teaching_leader5_email_icon {
-    position: absolute;
-    top: 118vw;
-    left: 5vw;
-    color: #16236e;
-}
-
-.teaching_leader5_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 115.5vw;
-    left: 8vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.vice_president_title {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2.5vw;
-    position: absolute;
-    top: 60vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.vice_president_separate_line {
-    color: #16236e;
-    border-color: #16236e;
-    width: 20vw;
-    height: 0.2vw;
-    position: absolute;
-    left: 55vw;
-    top: 65.6vw;
-    background: #16236e;
-}
-
-.vice_president_1_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 66vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.vice_president_1_email_icon {
-    position: absolute;
-    top: 71vw;
-    left: 55vw;
-    color: #16236e;
-}
-
-.vice_president_1_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 68.5vw;
-    left: 58vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.vice_president_2_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 74vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.vice_president_2_email_icon {
-    position: absolute;
-    top: 79vw;
-    left: 55vw;
-    color: #16236e;
-}
-
-.vice_president_2_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 76.5vw;
-    left: 58vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.vice_president_3_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 82vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.vice_president_3_email_icon {
-    position: absolute;
-    top: 87vw;
-    left: 55vw;
-    color: #16236e;
-}
-
-.vice_president_3_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 84.5vw;
-    left: 58vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-
-.AD_title {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2.5vw;
-    position: absolute;
-    top: 122vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.AD_separate_line {
-    color: #16236e;
-    border-color: #16236e;
-    width: 20vw;
-    height: 0.2vw;
-    position: absolute;
-    left: 5vw;
-    top: 127.6vw;
-    background: #16236e;
-}
-
-.AD_1_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 128vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.AD_1_email_icon {
-    position: absolute;
-    top: 133vw;
-    left: 5vw;
-    color: #16236e;
-}
-
-.AD_1_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 130.5vw;
-    left: 8vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.AD_2_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 128vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.AD_2_email_icon {
-    position: absolute;
-    top: 133vw;
-    left: 5vw;
-    color: #16236e;
-}
-
-.AD_2_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 130.5vw;
-    left: 8vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.doc_title {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2.5vw;
-    position: absolute;
-    top: 137vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.doc_separate_line {
-    color: #16236e;
-    border-color: #16236e;
-    width: 20vw;
-    height: 0.2vw;
-    position: absolute;
-    left: 5vw;
-    top: 142.6vw;
-    background: #16236e;
-}
-
-.doc_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 143vw;
-    left: 5vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.doc_email_icon {
-    position: absolute;
-    top: 148vw;
-    left: 5vw;
-    color: #16236e;
-}
-
-.doc_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 145.5vw;
-    left: 8vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.GA_title {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2.5vw;
-    position: absolute;
-    top: 122vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.GA_separate_line {
-    color: #16236e;
-    border-color: #16236e;
-    width: 20vw;
-    height: 0.2vw;
-    position: absolute;
-    left: 55vw;
-    top: 127.6vw;
-    background: #16236e;
-}
-
-.GA_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 128vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.GA_email_icon {
-    position: absolute;
-    top: 133vw;
-    left: 55vw;
-    color: #16236e;
-}
-
-.GA_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 130.5vw;
-    left: 58vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
-
-.WM_title {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2.5vw;
-    position: absolute;
-    top: 137vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.WM_separate_line {
-    color: #16236e;
-    border-color: #16236e;
-    width: 20vw;
-    height: 0.2vw;
-    position: absolute;
-    left: 55vw;
-    top: 142.6vw;
-    background: #16236e;
-}
-
-.WM_name {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 2vw;
-    position: absolute;
-    top: 143vw;
-    left: 55vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 2vw;
-}
-
-.WM_email_icon {
-    position: absolute;
-    top: 148vw;
-    left: 55vw;
-    color: #16236e;
-}
-
-.WM_email {
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 145.5vw;
-    left: 58vw;
-    color: #16236e;
-    letter-spacing: 0.1vw;
-    line-height: 4vw;
-}
+  }
+  
+  .officer_email {
+    color: #16236e;
+    font-size: 1.4vw;
+    word-break: break-all;
+    margin-top: 1vw;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .club_officers {
+      padding: 4vw 2vw; /* 更少的左右空白 */
+    }
+  
+    .officer_section {
+      width: 90vw;
+      max-width: none;
+      margin: 3vw 0;
+    }
+  
+    .officer_title {
+      font-size: 5vw;
+    }
+  
+    .officer_name {
+      font-size: 4vw;
+    }
+  
+    .officer_email {
+      font-size: 3.5vw;
+      margin-top: 1.5vw;
+    }
+  
+    .officer_icon {
+      font-size: 4vw;
+    }
+  }
