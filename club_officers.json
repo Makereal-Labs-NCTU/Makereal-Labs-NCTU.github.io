@@ -1,8 +1,16 @@
 {
-    "chairperson": [
+    "IM": [
         {
-            "name": "陳逸安",
-            "email": "yianchen.ee13@nycu.edu.tw"
+            "name": "阿巴巴",
+            "email": "ewww"
+        },
+        {
+            "name": "陳冠霆",
+            "email": "marvin.ee13@nycu.edu.tw"
+        },
+        {
+            "name": "游柏竣",
+            "email": "timber1118@gmail.com"
         }
     ],
     "AD": [
@@ -79,16 +87,6 @@
             "email": "timber1118@gmail.com"
         }
     ],
-    "IM": [
-        {
-            "name": "陳冠霆",
-            "email": "marvin.ee13@nycu.edu.tw"
-        },
-        {
-            "name": "游柏竣",
-            "email": "timber1118@gmail.com"
-        }
-    ],
     "vice_president": [
         {
             "name": "張家慈",
@@ -107,6 +105,12 @@
         {
             "name": "劉亭妤",
             "email": "doratyliu@gmail.com"
+        }
+    ],
+    "chairperson": [
+        {
+            "name": "陳逸安",
+            "email": "yianchen.ee13@nycu.edu.tw"
         }
     ],
     "MIS": [
