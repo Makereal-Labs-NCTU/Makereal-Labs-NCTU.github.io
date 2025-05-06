@@ -32,7 +32,7 @@ jobs:
 
       # 4. 執行更新 JSON 腳本
       - name: Run update_officers.py
-        run: python update-officers.py
+        run: python update_officers.py
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
