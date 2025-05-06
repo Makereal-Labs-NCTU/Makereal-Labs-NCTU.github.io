@@ -1,8 +1,28 @@
 {
-    "chairperson": [
+    "teaching_leader": [
         {
-            "name": "陳逸安",
-            "email": "yianchen.ee13@nycu.edu.tw"
+            "name": "蛤",
+            "email": "???"
+        },
+        {
+            "name": "賴香伊",
+            "email": "laidependent.cs13@nycu.edu.tw"
+        },
+        {
+            "name": "張家瑞",
+            "email": "violetff.ee13@nycu.edu.tw"
+        },
+        {
+            "name": "朱修毅",
+            "email": "jsy0305.cs13@nycu.edu.tw"
+        },
+        {
+            "name": "楊峻宇",
+            "email": "shinmeow1338.cs13@nycu.edu.tw"
+        },
+        {
+            "name": "劉以翔",
+            "email": "viecon342524.cs13@nycu.edu.tw"
         }
     ],
     "AD": [
@@ -39,28 +59,6 @@
         {
             "name": "張家慈",
             "email": "haleychang.ee13@nycu.edu.tw"
-        }
-    ],
-    "teaching_leader": [
-        {
-            "name": "賴香伊",
-            "email": "laidependent.cs13@nycu.edu.tw"
-        },
-        {
-            "name": "張家瑞",
-            "email": "violetff.ee13@nycu.edu.tw"
-        },
-        {
-            "name": "朱修毅",
-            "email": "jsy0305.cs13@nycu.edu.tw"
-        },
-        {
-            "name": "楊峻宇",
-            "email": "shinmeow1338.cs13@nycu.edu.tw"
-        },
-        {
-            "name": "劉以翔",
-            "email": "viecon342524.cs13@nycu.edu.tw"
         }
     ],
     "Cloud": [
@@ -107,6 +105,12 @@
         {
             "name": "劉亭妤",
             "email": "doratyliu@gmail.com"
+        }
+    ],
+    "chairperson": [
+        {
+            "name": "陳逸安",
+            "email": "yianchen.ee13@nycu.edu.tw"
         }
     ],
     "MIS": [
