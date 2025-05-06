@@ -3,11 +3,6 @@ name: Update Officers JSON and Deploy
 on:
   schedule:
     - cron: '0 19 * * *'  # 台灣時間凌晨 3 點
-
-  push:
-    branches:
-      - feature/auto-list-club-officers  # 測試用
-
   workflow_dispatch:      # 可手動執行
 
 jobs:
