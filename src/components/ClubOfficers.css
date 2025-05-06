@@ -1,0 +1,90 @@
+.club_officers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    padding: 3vw;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  .officer_section {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    min-width: 250px;
+    max-width: 400px;
+    margin: 1vw;
+    color: #16236e;
+  }
+  
+  .officer_title {
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-bottom: 0.5vw;
+  }
+  
+  .officer_line {
+    border: none;
+    width: 100%;
+    height: 4px;
+    background-color: #16236e;
+  }
+  
+  .officer_member {
+    margin-top: 0.5vw;
+  }
+  
+  .officer_name {
+    font-size: 2vw;
+    margin: 0vw;
+  }
+  
+  .officer_email_wrapper {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .officer_icon {
+    color: #16236e;
+    margin-right: 0.5vw;
+    font-size: 1.5vw;
+  }
+  
+  .officer_email {
+    color: #16236e;
+    font-size: 1.4vw;
+    word-break: break-all;
+    margin-top: 1vw;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .club_officers {
+      padding: 4vw 2vw; /* 更少的左右空白 */
+    }
+  
+    .officer_section {
+      width: 90vw;
+      max-width: none;
+      margin: 3vw 0;
+    }
+  
+    .officer_title {
+      font-size: 5vw;
+    }
+  
+    .officer_name {
+      font-size: 4vw;
+    }
+  
+    .officer_email {
+      font-size: 3.5vw;
+      margin-top: 1.5vw;
+    }
+  
+    .officer_icon {
+      font-size: 4vw;
+    }
+  }

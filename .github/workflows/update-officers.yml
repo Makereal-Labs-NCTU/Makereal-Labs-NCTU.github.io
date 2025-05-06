@@ -1,0 +1,74 @@
+name: Update Officers JSON and Deploy
+
+on:
+  schedule:
+    - cron: '0 19 * * *'  # 台灣時間凌晨 3 點
+  workflow_dispatch:      # 可手動執行
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 取得程式碼
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 設定 Python 環境
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.2'
+
+      # 3. 安裝 Python 套件（可略過）
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt || true
+
+      # 4. 執行更新 JSON 腳本
+      - name: Run update_officers.py
+        run: python update_officers.py
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+
+      # 5. 檢查 JSON 是否變動
+      - name: Check if public/club_officers.json changed
+        id: json_changed
+        run: |
+          git add public/club_officers.json
+          git diff --cached --quiet || echo "changed=true" >> $GITHUB_OUTPUT
+
+      # 6. Commit JSON（如果有變更）
+      - name: Commit updated JSON
+        if: steps.json_changed.outputs.changed == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -m "chore: update officers json"
+          git push
+
+      # 7. 設定 Node.js
+      - name: Setup Node.js
+        if: steps.json_changed.outputs.changed == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 8. 安裝 Node.js 套件
+      - name: Install Node.js dependencies
+        if: steps.json_changed.outputs.changed == 'true'
+        run: npm ci
+
+      # 9. 建立 React 靜態檔案
+      - name: Build React app
+        if: steps.json_changed.outputs.changed == 'true'
+        run: npm run build
+
+      # 10. 部署到 gh-pages 分支
+      - name: Deploy to gh-pages
+        if: steps.json_changed.outputs.changed == 'true'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build

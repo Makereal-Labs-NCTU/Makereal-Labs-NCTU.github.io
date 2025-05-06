@@ -1,0 +1,118 @@
+{
+    "chairperson": [
+        {
+            "name": "陳逸安",
+            "email": "yianchen.ee13@nycu.edu.tw"
+        }
+    ],
+    "AD": [
+        {
+            "name": "蔡俊則",
+            "email": "toshi.cs12@nycu.edu.tw"
+        },
+        {
+            "name": "陳冠霆",
+            "email": "marvin.ee13@nycu.edu.tw"
+        }
+    ],
+    "GA": [
+        {
+            "name": "楊庭愷",
+            "email": "antoniotkyang.cs13@nycu.edu.tw"
+        }
+    ],
+    "doc": [
+        {
+            "name": "魏靖彤",
+            "email": "evawei456@gmail.com"
+        }
+    ],
+    "PR": [
+        {
+            "name": "施俊宇",
+            "email": "junyushi1@gmail.com"
+        },
+        {
+            "name": "吳昱輝",
+            "email": "wuni1102@gmail.com"
+        },
+        {
+            "name": "張家慈",
+            "email": "haleychang.ee13@nycu.edu.tw"
+        }
+    ],
+    "teaching_leader": [
+        {
+            "name": "賴香伊",
+            "email": "laidependent.cs13@nycu.edu.tw"
+        },
+        {
+            "name": "張家瑞",
+            "email": "violetff.ee13@nycu.edu.tw"
+        },
+        {
+            "name": "朱修毅",
+            "email": "jsy0305.cs13@nycu.edu.tw"
+        },
+        {
+            "name": "楊峻宇",
+            "email": "shinmeow1338.cs13@nycu.edu.tw"
+        },
+        {
+            "name": "劉以翔",
+            "email": "viecon342524.cs13@nycu.edu.tw"
+        }
+    ],
+    "Cloud": [
+        {
+            "name": "張雅安",
+            "email": "buioyc1129euuio@gmail.com"
+        }
+    ],
+    "Web": [
+        {
+            "name": "張雅安",
+            "email": "buioyc1129euuio@gmail.com"
+        },
+        {
+            "name": "游柏竣",
+            "email": "timber1118@gmail.com"
+        }
+    ],
+    "IM": [
+        {
+            "name": "陳冠霆",
+            "email": "marvin.ee13@nycu.edu.tw"
+        },
+        {
+            "name": "游柏竣",
+            "email": "timber1118@gmail.com"
+        }
+    ],
+    "vice_president": [
+        {
+            "name": "張家慈",
+            "email": "haleychang.ee13@nycu.edu.tw"
+        },
+        {
+            "name": "劉亭妤",
+            "email": "doratyliu@gmail.com"
+        },
+        {
+            "name": "游柏竣",
+            "email": "timber1118@gmail.com"
+        }
+    ],
+    "教學總長": [
+        {
+            "name": "劉亭妤",
+            "email": "doratyliu@gmail.com"
+        }
+    ],
+    "MIS": [
+        {
+            "name": "游柏竣",
+            "email": "timber1118@gmail.com"
+        }
+    ]
+}
