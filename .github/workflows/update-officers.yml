@@ -1,0 +1,37 @@
+name: Update Officers JSON
+
+on:
+  schedule:
+    - cron: '0 19 * * *'  # 台灣時間凌晨 3 點
+  workflow_dispatch:      # 可手動執行
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies (if any)
+        run: |
+          pip install -r requirements.txt || true  # 如果你沒寫 requirements.txt 會跳過
+
+      - name: Run update_officers.py
+        run: python update-officers.py
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+
+      - name: Commit and push if changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: update officers json"
+          git push
