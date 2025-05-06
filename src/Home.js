@@ -1,5 +1,5 @@
 import ClubLogo from "./components/ClubLogo";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ClubIntro from "./components/ClubIntro";
 import './Home.css'
 import UnderCoverThreeIntros from "./components/UnderCover";
