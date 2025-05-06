@@ -13,6 +13,16 @@
             "email": "timber1118@gmail.com"
         }
     ],
+    "MIS": [
+        {
+            "name": "阿巴巴",
+            "email": "ewww"
+        },
+        {
+            "name": "游柏竣",
+            "email": "timber1118@gmail.com"
+        }
+    ],
     "AD": [
         {
             "name": "蔡俊則",
@@ -111,12 +121,6 @@
         {
             "name": "陳逸安",
             "email": "yianchen.ee13@nycu.edu.tw"
-        }
-    ],
-    "MIS": [
-        {
-            "name": "游柏竣",
-            "email": "timber1118@gmail.com"
         }
     ]
 }
