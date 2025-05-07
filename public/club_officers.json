@@ -1,10 +1,4 @@
 {
-    "chairperson": [
-        {
-            "name": "陳逸安",
-            "email": "yianchen.ee13@nycu.edu.tw"
-        }
-    ],
     "AD": [
         {
             "name": "蔡俊則",
@@ -107,6 +101,12 @@
         {
             "name": "劉亭妤",
             "email": "doratyliu@gmail.com"
+        }
+    ],
+    "chairperson": [
+        {
+            "name": "陳逸安",
+            "email": "yianchen.ee13@nycu.edu.tw"
         }
     ],
     "MIS": [
