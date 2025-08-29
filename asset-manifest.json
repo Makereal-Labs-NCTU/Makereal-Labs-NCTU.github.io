@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.b6d3117b.css",
-    "main.js": "/static/js/main.ddddde26.js",
+    "main.js": "/static/js/main.39f28777.js",
     "static/js/787.3dd3f24c.chunk.js": "/static/js/787.3dd3f24c.chunk.js",
     "static/media/TaipeiSansTCBeta-Regular.ttf": "/static/media/TaipeiSansTCBeta-Regular.3c32e3281e645b03c15a.ttf",
     "static/media/makercamp2022cover.mp4": "/static/media/makercamp2022cover.2b9956e31d58ecf0d712.mp4",
     "static/media/homecover.mp4": "/static/media/homecover.767905cf66ff0ad03970.mp4",
+    "static/media/camp_intro.jpg": "/static/media/camp_intro.365382dba498b2a7d853.jpg",
     "static/media/team8.JPG": "/static/media/team8.fab9fa11e061e96e4ee0.JPG",
+    "static/media/competition_intro.jpg": "/static/media/competition_intro.1a78f762d855923cde18.jpg",
     "static/media/cpr.png": "/static/media/cpr.785c2ec9121a24e5192a.png",
     "static/media/camp_cover.png": "/static/media/camp_cover.8c2e842e4af10a3b1656.png",
     "static/media/hackathoncover.mp4": "/static/media/hackathoncover.7b4345ec7a2afd9cfffb.mp4",
@@ -18,7 +20,6 @@
     "static/media/competition.png": "/static/media/competition.c2ceac6fa09a4b40fb40.png",
     "static/media/team6.mp4": "/static/media/team6.fe0b11436ea8c79c50db.mp4",
     "static/media/club_logo.png": "/static/media/club_logo.30b4c7715c499d742b39.png",
-    "static/media/camp_post.jpg": "/static/media/camp_post.c1c1bb8190e21a258f7c.jpg",
     "static/media/supereletronics.png": "/static/media/supereletronics.939d771be6af3bcecff9.png",
     "static/media/cushion.jpg": "/static/media/cushion.ba400bd501ed4e26374e.jpg",
     "static/media/ppt.png": "/static/media/ppt.36ca46703ed2e329e139.png",
@@ -27,7 +28,6 @@
     "static/media/team1.jpg": "/static/media/team1.e923ab4619d8f9347815.jpg",
     "static/media/welding.png": "/static/media/welding.9a79265e1e69798263dd.png",
     "static/media/mask.jpg": "/static/media/mask.fdc6e33f67701e3c6c75.jpg",
-    "static/media/competition.jpg": "/static/media/competition.0ce3efcceef370cd9c91.jpg",
     "static/media/computerthinking.png": "/static/media/computerthinking.a9de32f0f2dc766adefb.png",
     "static/media/player.jpg": "/static/media/player.e49d2fe9b975f564fbfc.jpg",
     "static/media/basicprogramming.png": "/static/media/basicprogramming.40ba950fafd65fda06d2.png",
@@ -35,9 +35,9 @@
     "static/media/brainstorming.png": "/static/media/brainstorming.f8bc276826ca88649ee6.png",
     "static/media/team2.jpg": "/static/media/team2.a622192c71b73653a41e.jpg",
     "static/media/arrow.gif": "/static/media/arrow.874ed242212456a70b98.gif",
-    "static/media/club_course.jpg": "/static/media/club_course.4d6e7ad765fdd30be0cd.jpg",
     "static/media/notion_course.jpg": "/static/media/notion_course.4d6e7ad765fdd30be0cd.jpg",
     "static/media/team3.jpg": "/static/media/team3.1b3800e94b0335b6a7be.jpg",
+    "static/media/club_course_intro.jpg": "/static/media/club_course_intro.ca37a4d420c7ca5e0919.jpg",
     "static/media/team9.jpg": "/static/media/team9.1039f480b851bd2ff479.jpg",
     "static/media/clock.jpg": "/static/media/clock.82dd07aefa597883878e.jpg",
     "static/media/team7-2.jpg": "/static/media/team7-2.47b3ef8b0c2b482fd7dc.jpg",
@@ -45,11 +45,11 @@
     "static/media/team7-1.jpg": "/static/media/team7-1.4617be57acf0f877bb58.jpg",
     "index.html": "/index.html",
     "main.b6d3117b.css.map": "/static/css/main.b6d3117b.css.map",
-    "main.ddddde26.js.map": "/static/js/main.ddddde26.js.map",
+    "main.39f28777.js.map": "/static/js/main.39f28777.js.map",
     "787.3dd3f24c.chunk.js.map": "/static/js/787.3dd3f24c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6d3117b.css",
-    "static/js/main.ddddde26.js"
+    "static/js/main.39f28777.js"
   ]
 }
