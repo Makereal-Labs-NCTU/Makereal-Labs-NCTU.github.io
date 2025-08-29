@@ -1,8 +1,8 @@
 import './UnderCover.css'
 import gif from '../videos/arrow.gif'
-import photo from '../pictures/camp_post.jpg'
-import coursePhoto from '../pictures/club_course.jpg'
-import competitionPhoto from '../pictures/competition.jpg'
+import campPhoto from '../pictures/camp_intro.jpg'
+import coursePhoto from '../pictures/club_course_intro.jpg'
+import competitionPhoto from '../pictures/competition_intro.jpg'
 import { Link } from "react-router-dom";
 
 const UnderCoverThreeIntros = () => {
@@ -12,7 +12,7 @@ const UnderCoverThreeIntros = () => {
                 舉辦各種活動，傳承創客精神
             </h2>
             <img src={gif} alt='scroll down' className='home_scroll_down_gif' />
-            <img src={photo} alt='camp' className='camp_photo' />
+            <img src={campPhoto} alt='camp' className='camp_photo' />
             <Link to="/maker-camp" className='maker_camp_link'>
                 <h3 className='first_intro_title'>
                     創客營
