@@ -1,0 +1,173 @@
+.equipment {
+    height: 162vw;
+}
+
+.equipment_cover {
+    height: 30vw;
+    background-color: rgb(0, 128, 117);
+}
+
+.equipment_cover_photo {
+    right: 0vw;
+    height: 30vw;
+    position: absolute;
+    top: 6vw;
+}
+
+.equipment_title {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(241, 241, 241);
+    position: absolute;
+    top: 13vw;
+    left: 10vw;
+    font-size: 3vw;
+    letter-spacing: 0.15vw;
+}
+
+.equipment_subtitle {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(241, 241, 241);
+    position: absolute;
+    top: 19.5vw;
+    left: 10vw;
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap');
+
+@font-face {
+    font-family: 'Noto Sans TC', sans-serif;
+    src: url('../fonts/TaipeiSansTCBeta-Regular.ttf') format("truetype");
+}
+
+.equipment_under_cover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 16vw;
+}
+
+.equipment_scroll_down_gif {
+    position: absolute;
+    top: 43vw;
+    width: 5vw;
+}
+
+.equipment_description {
+    font-family: 'Noto Sans TC', sans-serif;
+    position: absolute;
+    top: 36.7vw;
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+}
+
+.the_3d_printer {
+    height: 10vw;
+    display: flex;
+    align-items: center;
+}
+
+.the_3d_printer_title,
+.the_3d_printer_subtitle{
+    font-family: 'Noto Sans TC', sans-serif;
+    position: absolute;
+    left: 50%;         
+    transform: translateX(-50%);
+    text-align: center; 
+}
+
+.the_3d_printer_title {
+    top: 49vw;
+    font-size: 3vw;
+    letter-spacing: 0.15vw;
+}
+
+.the_3d_printer_rule_border {
+    position: absolute;
+    top: 58vw;
+    border: 0.15vw solid #000;
+    border-radius: 0.6vw;
+    padding: 2vw;
+    padding-top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    background-color: #fff;
+    box-shadow: 0 0.4vw 0.8vw rgba(0,0,0,0.1);
+}
+
+.the_3d_printer_subtitle {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.8vw;
+    letter-spacing: 0.15vw;
+    text-align: center;
+    margin-bottom: 2vw;
+    position: relative;
+    left: auto;
+    transform: none;
+}
+
+.the_3d_printer_text {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+}
+
+.the_3d_printer_text ol {
+    margin-top: 1.2vw;
+    margin-bottom: 1.5vw;
+    line-height: 2.3vw;
+}
+
+.the_3d_printer_text ol li {
+    margin-bottom: 0.8vw;
+}
+
+
+.the_3d_printer_text > h5 {
+    font-size: 1.5vw;
+    margin-top: 2.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.material-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 60%;
+    max-width: 100%;
+    border: 1px solid #000;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    word-wrap: break-word;
+}
+
+
+.material-table th,
+.material-table td {
+    border: 1px solid #000;
+    padding: 6px;
+    word-wrap: break-word;
+}
+
+.material-col {
+    width: 50%;
+}
+
+.cost-col {
+    width: 50%;
+    text-align: left;
+}
+
+.the-3dp-form {
+    color: blue;
+    text-decoration: none;
+}

@@ -121,6 +121,24 @@
     text-decoration: underline;
 }
 
+.navbar_equipment {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #524f4f;
+    font-size: 1.7vw;
+    background: #eeeeee;
+    height: 6vw;
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.navbar_equipment:hover {
+    color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .navbar_contact_us {
     font-family: 'Noto Sans TC', sans-serif;
     color: #524f4f;
