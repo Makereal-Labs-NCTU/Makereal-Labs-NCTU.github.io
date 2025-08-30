@@ -9,6 +9,8 @@ const ClubLogo = () => {
         window.matchMedia("(min-width: 768px)").matches
     )
 
+    const [isOpen, setIsOpen] = useState(false)
+
     useEffect(() => {
         window
             .matchMedia("(min-width: 768px)")
@@ -51,9 +53,20 @@ const ClubLogo = () => {
                 <Link to="/" style={{ textDecoration: 'none' }}>
                     <h1 className="title">國立陽明交通大學 創客俱樂部</h1>
                 </Link>
-                <button className="bar_icon">
-                    <GoThreeBars size={15} style={{height: '25px'}}/>
+                <button className="bar_icon" onClick={() => setIsOpen(!isOpen)}>
+                    <GoThreeBars size={25}/>
                 </button>
+
+                {isOpen && (
+                    <div className="menu">
+                        <Link to="/">首頁</Link>
+                        <Link to="/maker-camp">創客營</Link>
+                        <Link to="/club-course">社課</Link>
+                        <Link to="/competition">競賽</Link>
+                        <Link to="/equipment">社團器材</Link>
+                        <Link to="/contact-us">聯絡我們</Link>
+                    </div>
+                )}
             </div>
         )
     }

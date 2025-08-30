@@ -157,4 +157,49 @@
     text-decoration: underline;
 }
 
+.menu {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+    z-index: 1000;
+    width: 200px;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+.menu a {
+    width: 80%;
+    padding: 12px 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    color: #524f4f;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+
+.menu a:hover {
+    background: #f5f5f5;
+    color: orange;
+    transform: none !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap');
