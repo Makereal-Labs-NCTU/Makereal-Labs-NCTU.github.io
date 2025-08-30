@@ -8,6 +8,7 @@ import './App.css'
 import ScrollToTop from './components/ScrollToTop';
 import MakerCamp2022 from './components/MakerCamp2022Summer';
 import ClubCourse from './components/ClubCourse';
+import Equipment from './components/Equipment';
 import Competition from './components/Competition';
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
                     <Route path="/maker-camp" element={<MakerCamp />} />
                     <Route path="/maker-camp/maker-camp-2022-summer" element={<MakerCamp2022 />} />
                     <Route path="/club-course" element={<ClubCourse />} />
+                    <Route path="/equipment" element={<Equipment />} />
                     <Route path="/competition" element={<Competition />} />
                 </Routes>
             </Router>

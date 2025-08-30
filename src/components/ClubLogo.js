@@ -35,6 +35,9 @@ const ClubLogo = () => {
                 <Link to="/competition" style={{ textDecoration: 'none', cursor: 'default' }}>
                     <p className="navbar_competition">競賽</p>
                 </Link>
+                <Link to="/equipment" style={{ textDecoration: 'none', cursor: 'default' }} >
+                    <p className="navbar_equipment">社團器材</p>
+                </Link>
                 <Link to="/contact-us" style={{ textDecoration: 'none', cursor: 'default' }} >
                     <p className="navbar_contact_us">聯絡我們</p>
                 </Link>
