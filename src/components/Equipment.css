@@ -2,36 +2,38 @@
     height: 162vw;
 }
 
-.equipment_cover {
-    height: 30vw;
+.cover {
     background-color: rgb(0, 128, 117);
-}
-
-.equipment_cover_photo {
-    right: 0vw;
     height: 30vw;
-    position: absolute;
-    top: 6vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vw;
+    box-sizing: border-box;
 }
 
-.equipment_title {
+.cover_text {
     font-family: 'Noto Sans TC', sans-serif;
-    color: rgb(241, 241, 241);
-    position: absolute;
-    top: 13vw;
-    left: 10vw;
+    color: #f1f1f1;
+    flex: 1;
+}
+
+.cover_title {
     font-size: 3vw;
+    margin-bottom: 2vw;
     letter-spacing: 0.15vw;
 }
 
-.equipment_subtitle {
-    font-family: 'Noto Sans TC', sans-serif;
-    color: rgb(241, 241, 241);
-    position: absolute;
-    top: 19.5vw;
-    left: 10vw;
+.cover_subtitle {
     font-size: 1.5vw;
     letter-spacing: 0.1vw;
+}
+
+.cover_photo {
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap');
@@ -41,25 +43,22 @@
     src: url('../fonts/TaipeiSansTCBeta-Regular.ttf') format("truetype");
 }
 
-.equipment_under_cover {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 16vw;
+.under_cover {
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.description {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    margin-bottom: 2vw;
 }
 
 .equipment_scroll_down_gif {
     position: absolute;
     top: 43vw;
     width: 5vw;
-}
-
-.equipment_description {
-    font-family: 'Noto Sans TC', sans-serif;
-    position: absolute;
-    top: 36.7vw;
-    font-size: 2vw;
-    letter-spacing: 0.1vw;
 }
 
 .the_3d_printer {

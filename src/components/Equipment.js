@@ -7,17 +7,20 @@ const Equipment = () => {
     return (
         <div className='equipment'>
             <ClubLogo />
-            <div className='equipment_cover'>
-                <img className='equipment_cover_photo' src={EquipmentCover} alt='equipment' />
-                <h2 className='equipment_title'>
-                    社團器材
-                </h2>
-                <p className='equipment_subtitle'>
-                    設備完善精良，資源豐富齊全
-                </p>
+            <div className='cover'>
+                <div className='cover_text'>
+                    <h2 className='cover_title'>
+                        社團器材
+                    </h2>
+                    <p className='cover_subtitle'>
+                        設備完善精良，資源豐富齊全
+                    </p>
+                </div>
+                <img className='cover_photo' src={EquipmentCover} alt='equipment' />
             </div>
-            <div className='equipment_under_cover'>
-                <h3 className='equipment_description'>
+
+            <div className='under_cover'>
+                <h3 className='description'>
                     3D 列印機、雷射切割機...... 優良器材應有盡有。
                 </h3>
                 <img src={gif} alt='scroll down' className='equipment_scroll_down_gif' />
