@@ -1,5 +1,5 @@
 .equipment {
-    height: 280vw;
+    height: auto;
 }
 
 .cover {
@@ -91,7 +91,7 @@
     width: 100%;
 }
 
-.club_equipment_rules_text h4 {
+.club_equipment_rules_text h5 {
     font-size: 1.6vw;
     margin-top: 2.5vw;
     margin-bottom: 1vw;
@@ -106,7 +106,7 @@
     margin-top: 1vw;
     margin-bottom: 1.5vw;
     line-height: 2.3vw;
-    padding-left: 1.5vw;
+    padding-left: 2vw;
     font-weight: bold;
 }
 
@@ -177,7 +177,8 @@
     margin-top: 1.2vw;
     margin-bottom: 1.5vw;
     line-height: 2.3vw;
-    padding-left: 1.5vw;
+    padding-left: 2vw;
+    font-weight: bold;
 }
 
 .the_3d_printer_text ol li {
@@ -219,7 +220,6 @@
 
 .cost-col {
     width: 50%;
-    text-align: left;
 }
 
 .the-3dp-form {
@@ -229,4 +229,54 @@
 
 .the-3dp-form:hover {
     color: #004080;
+}
+
+@media (max-width: 768px) {
+    .description { font-size: 4vw; line-height: 5vw; }
+
+    .equipment_scroll_down_gif { top: 60vw; width: 10vw; }
+
+    .club_equipment_rules_border,
+    .the_3d_printer_rule_border { width: 90%; padding: 4vw; }
+
+    .club_equipment_rules_text,
+    .the_3d_printer_text {
+        font-size: 3.5vw;
+        line-height: 5vw;
+    }
+
+    .club_equipment_rules_text ol,
+    .club_equipment_rules_text ul {
+        font-weight: normal;
+        margin-left: 4vw;
+    }
+
+    .the_3d_printer_text ol,
+    .the_3d_printer_text ul {
+        font-weight: normal;
+        margin-left: 4vw;
+    }
+
+    .club_equipment_rules_title,
+    .the_3d_printer_title { font-size: 6vw; }
+
+    .the_3d_printer_subtitle { font-size: 4.5vw; }
+
+    .club_equipment_rules_text h5,
+    .the_3d_printer_text h5 {
+        font-size: 4vw !important;
+        line-height: 5.5vw !important;
+        margin-top: 5vw;
+        margin-bottom: 1vw;
+    }
+
+    .club_equipment_rules_text ol,
+    .club_equipment_rules_text ul,
+    .the_3d_printer_text ol,
+    .the_3d_printer_text ul {
+        line-height: 5vw;
+    }
+
+    .material-table { width: 100%; font-size: 3vw; }
+    .material-table th, .material-table td { padding: 4px; text-align: center; }
 }
