@@ -1,225 +1,172 @@
-.club_course_whole_page {
-    height: 142vw; 
-}
-
 .cover {
-    height: 30vw;
     background-color: rgb(60, 78, 168);
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vw;
+    box-sizing: border-box;
 }
 
-.cover_photo {
-    position: absolute;
-    right: 0vw;
-    height: 30vw;
+.cover_text {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #f1f1f1;
+    flex: 1;
 }
 
 .cover_title {
-    font-family: 'Noto Sans TC', sans-serif;
-    color: rgb(241, 241, 241);
-    position: absolute;
-    top: 13vw;
-    left: 10vw;
     font-size: 3vw;
+    margin-bottom: 2vw;
     letter-spacing: 0.15vw;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap');
-
 .cover_subtitle {
-    font-family: 'Noto Sans TC', sans-serif;
-    color: rgb(241, 241, 241);
-    position: absolute;
-    top: 19.5vw;
-    left: 10vw;
     font-size: 1.5vw;
     letter-spacing: 0.1vw;
 }
 
+.cover_photo {
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
 .under_cover {
-    height: 16vw;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 5vw;
 }
 
 .description {
     font-family: 'Noto Sans TC', sans-serif;
-    position: absolute;
-    top: 37vw;
     font-size: 2vw;
     letter-spacing: 0.1vw;
-    z-index: 3;
+    margin-bottom: 2vw;
 }
 
 .scroll_down_gif {
-    position: absolute;
-    top: 43vw;
     width: 5vw;
 }
 
-.player_course {
-    height: 30vw;
-    background-color: #F1E1FF;
+.course_block {
+    width: 100%;
+    min-height: 30vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 5vw;
+    box-sizing: border-box;
 }
 
-.player_photo {
-    width: 30vw;
-    position: absolute;
-    right: 9vw;
+.course_text {
+    flex: 1;
+    max-width: 60%;
+    margin-right: 3vw;
 }
 
-.player_title {
+
+.course_text h3 {
     font-family: 'Noto Sans TC', sans-serif;
-    position: absolute;
-    top: 56vw;
-    left: 10vw;
     font-size: 3vw;
+    margin-bottom: 2vw;
     letter-spacing: 0.15vw;
 }
 
-.player_subtitle {
-    position: absolute;
-    top: 63vw;
-    left: 10vw;
+.course_text p {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 1.3vw;
+    line-height: 2.2vw;
+    margin-bottom: 2vw;
     letter-spacing: 0.1vw;
-    line-height: 3vw;
 }
 
-.player_learn_more_semicircle {
+.course_photo_container {
+    width: 30%;
+    flex-shrink: 0;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 10vw;
+}
+
+.course_photo {
+    position: absolute;
+    top: 50%;                 /* 垂直置中 */
+    right: 0;                 /* 靠右 */
+    transform: translateY(-50%); /* 修正垂直置中偏移 */
+    width: 100%;              /* 充滿容器寬度 */
+    height: auto;             /* 保持比例 */
+    border-radius: 1vw;
+    object-fit: cover;
+}
+
+.course_button {
     height: 4vw;
     width: 10vw;
-    border-radius: 5rem 5rem 5rem 5rem;
-    position: absolute;
-    top: 72vw;
-    left: 10vw;
+    border-radius: 5rem;
     background-color: #16236e;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.3s;
 }
 
-.player_learn_more_semicircle:hover {
+.course_button:hover {
     background-color: #4b589e;
     cursor: pointer;
 }
 
-.player_learn_more_text {
+.course_button p {
     color: #dddddd;
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 1.3vw;
 }
 
-.notion_course {
-    height: 30vw;
+.course_player {
+    background-color: #F1E1FF;
+}
+
+.course_notion {
     background-color: #E6CAFF;
-    display: flex;
-    align-items: center;
 }
 
-.notion_photo {
-    width: 30vw;
-    position: absolute;
-    right: 9vw;
-}
-
-.notion_title {
-    font-family: 'Noto Sans TC', sans-serif;
-    position: absolute;
-    top: 85vw;
-    left: 10vw;
-    font-size: 3vw;
-    letter-spacing: 0.15vw;
-}
-
-.notion_subtitle {
-    position: absolute;
-    top: 92vw;
-    left: 10vw;
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.3vw;
-    letter-spacing: 0.1vw;
-    line-height: 3vw;
-}
-
-.notion_learn_more_semicircle {
-    height: 4vw;
-    width: 10vw;
-    border-radius: 5rem 5rem 5rem 5rem;
-    position: absolute;
-    top: 101vw;
-    left: 10vw;
-    background-color: #16236e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.notion_learn_more_semicircle:hover {
-    background-color: #4b589e;
-    cursor: pointer;
-}
-
-.notion_learn_more_text {
-    color: #dddddd;
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.3vw;
-}
-
-.clock_course {
-    height: 30vw;
+.course_clock {
     background-color: #F1E1FF;
-    display: flex;
-    align-items: center;
 }
 
-.clock_photo {
-    width: 30vw;
-    position: absolute;
-    right: 9vw;
-}
+@media (max-width: 768px) {
+    .course_block {
+        flex-direction: column;
+        text-align: center;
+        padding: 8vw 5vw;
+    }
 
-.clock_title {
-    font-family: 'Noto Sans TC', sans-serif;
-    position: absolute;
-    top: 114vw;
-    left: 10vw;
-    font-size: 3vw;
-    letter-spacing: 0.15vw;
-}
+    .course_text {
+        margin-right: 0;
+        margin-bottom: 4vw;
+    }
 
-.clock_subtitle {
-    position: absolute;
-    top: 121vw;
-    left: 10vw;
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.3vw;
-    letter-spacing: 0.1vw;
-    line-height: 3vw;
-}
+    .course_photo {
+        display: none;
+    }
 
-.clock_learn_more_semicircle {
-    height: 4vw;
-    width: 10vw;
-    border-radius: 5rem 5rem 5rem 5rem;
-    position: absolute;
-    top: 130vw;
-    left: 10vw;
-    background-color: #16236e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .course_text h3 {
+        font-size: 6vw;
+    }
 
-.clock_learn_more_semicircle:hover {
-    background-color: #4b589e;
-    cursor: pointer;
-}
+    .course_text p {
+        font-size: 4vw;
+        line-height: 6vw;
+    }
 
-.clock_learn_more_text {
-    color: #dddddd;
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1.3vw;
+    .course_button {
+        height: 8vw;
+        width: 30vw;
+    }
+
+    .course_button p {
+        font-size: 4vw;
+    }
 }
