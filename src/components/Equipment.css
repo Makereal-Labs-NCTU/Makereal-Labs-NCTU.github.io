@@ -1,5 +1,5 @@
 .equipment {
-    height: 162vw;
+    height: 280vw;
 }
 
 .cover {
@@ -36,13 +36,6 @@
     flex-shrink: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap');
-
-@font-face {
-    font-family: 'Noto Sans TC', sans-serif;
-    src: url('../fonts/TaipeiSansTCBeta-Regular.ttf') format("truetype");
-}
-
 .under_cover {
     text-align: center;
     margin-bottom: 5vw;
@@ -61,81 +54,141 @@
     width: 5vw;
 }
 
-.the_3d_printer {
-    height: 10vw;
+.club_equipment_rules {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: 4vw 2vw;
+    background-color: #e6f7f1;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
-.the_3d_printer_title,
-.the_3d_printer_subtitle{
+.club_equipment_rules_title {
+    font-size: 2.8vw;
+    letter-spacing: 0.15vw;
+    margin-bottom: 2vw;
+    text-align: center;
+    color: #00675c;
+}
+
+.club_equipment_rules_border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.15vw solid #009975;
+    border-radius: 0.6vw;
+    padding: 2vw;
+    width: 70%;
+    background-color: #fff;
+    box-shadow: 0 0.4vw 0.8vw rgba(0,0,0,0.1);
+}
+
+.club_equipment_rules_text {
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+    text-align: left;
+    width: 100%;
+}
+
+.club_equipment_rules_text h4 {
+    font-size: 1.6vw;
+    margin-top: 2.5vw;
+    margin-bottom: 1vw;
+    color: #004d40;
+}
+
+.club_equipment_rules_text p {
+    margin: 1vw 0;
+}
+
+.club_equipment_rules_text ol {
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    line-height: 2.3vw;
+    padding-left: 1.5vw;
+    font-weight: bold;
+}
+
+.club_equipment_rules_text ul {
+    margin: 0.5vw 0 1.2vw 2vw;
+    list-style-type: disc;
+}
+
+.club_equipment_rules_text li {
+    margin-bottom: 0.6vw;
+}
+
+.club_equipment_rules_text a {
+    color: #007acc;
+    text-decoration: underline;
+}
+
+.club_equipment_rules_text a:hover {
+    color: #004080;
+}
+
+.the_3d_printer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vw 2vw;
+    background-color: #e6f0ff;
     font-family: 'Noto Sans TC', sans-serif;
-    position: absolute;
-    left: 50%;         
-    transform: translateX(-50%);
-    text-align: center; 
 }
 
 .the_3d_printer_title {
-    top: 49vw;
     font-size: 3vw;
     letter-spacing: 0.15vw;
+    margin-bottom: 2vw;
+    text-align: center;
+    color: #003366;
 }
 
 .the_3d_printer_rule_border {
-    position: absolute;
-    top: 58vw;
-    border: 0.15vw solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.15vw solid #3366cc;
     border-radius: 0.6vw;
     padding: 2vw;
-    padding-top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     width: 70%;
     background-color: #fff;
     box-shadow: 0 0.4vw 0.8vw rgba(0,0,0,0.1);
 }
 
 .the_3d_printer_subtitle {
-    font-family: 'Noto Sans TC', sans-serif;
     font-size: 1.8vw;
     letter-spacing: 0.15vw;
-    text-align: center;
     margin-bottom: 2vw;
-    position: relative;
-    left: auto;
-    transform: none;
+    text-align: center;
+    color: #003366;
 }
 
 .the_3d_printer_text {
-    font-family: 'Noto Sans TC', sans-serif;
     font-size: 1.3vw;
     letter-spacing: 0.1vw;
     line-height: 2vw;
     text-align: left;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    position: relative;
-    top: auto;
-    left: auto;
-    right: auto;
+    width: 100%;
 }
 
 .the_3d_printer_text ol {
     margin-top: 1.2vw;
     margin-bottom: 1.5vw;
     line-height: 2.3vw;
+    padding-left: 1.5vw;
 }
 
 .the_3d_printer_text ol li {
     margin-bottom: 0.8vw;
 }
 
-
 .the_3d_printer_text > h5 {
     font-size: 1.5vw;
     margin-top: 2.5vw;
     margin-bottom: 0.5vw;
+    color: #003366;
 }
 
 .material-table {
@@ -144,17 +197,20 @@
     width: 60%;
     max-width: 100%;
     border: 1px solid #000;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    word-wrap: break-word;
+    margin: 2vw auto;
+    text-align: center;
 }
-
 
 .material-table th,
 .material-table td {
     border: 1px solid #000;
     padding: 6px;
-    word-wrap: break-word;
+}
+
+.material-table th {
+    background-color: #b3d9ff;
+    color: #003366;
+    font-weight: bold;
 }
 
 .material-col {
@@ -167,6 +223,10 @@
 }
 
 .the-3dp-form {
-    color: blue;
-    text-decoration: none;
+    color: #007acc;
+    text-decoration: underline;
+}
+
+.the-3dp-form:hover {
+    color: #004080;
 }
