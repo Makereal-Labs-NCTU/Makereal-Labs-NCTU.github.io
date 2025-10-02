@@ -93,11 +93,11 @@
 
 .course_photo {
     position: absolute;
-    top: 50%;                 /* 垂直置中 */
-    right: 0;                 /* 靠右 */
-    transform: translateY(-50%); /* 修正垂直置中偏移 */
-    width: 100%;              /* 充滿容器寬度 */
-    height: auto;             /* 保持比例 */
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
     border-radius: 1vw;
     object-fit: cover;
 }
