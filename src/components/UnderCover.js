@@ -21,7 +21,7 @@ const UnderCoverThreeIntros = () => {
             <p className='first_intro_text'>
                 每年寒暑假在交大舉辦，為期數天，包含24小時黑客松。
             </p>
-            <img src={coursePhoto} alt='course' className='course_photo' />
+            <img src={coursePhoto} alt='course' className='course_intro_photo' />
             <Link to="/club-course">
                 <h3 className='second_intro_title'>
                     社課
