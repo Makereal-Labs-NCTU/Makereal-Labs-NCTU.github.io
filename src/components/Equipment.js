@@ -41,48 +41,50 @@ const Equipment = () => {
                         <h5>一、成為社員資格＆社員權利</h5>
                         <ol>
                             <li>繳交 NT$500 社費，即有終身社員資格。</li>
-                        </ol>
-                        <p><strong>社員可使用之資源：</strong></p>
-                        <ol>
-                            <li>往後每堂社課費用均可獲得減免，約 NT$200~$300 元。</li>
-                            <li>可申請借用社辦工具（手工具、電子元件開發板、工具書）。</li>
-                            <li>可申請使用社辦機器（3D 列印機、雷切機）。</li>
+                            <li>
+                                社員可使用之資源：
+                                <ol type="a">
+                                    <li>往後每堂社課費用均可獲得減免，約 NT$200~$300 元。</li>
+                                    <li>可申請借用社辦工具（手工具、電子元件開發板、工具書）做創客活動。</li>
+                                    <li>可申請使用社辦機器（3D 列印機、雷切機）做創客活動。</li>
+                                </ol>
+                            </li>
                         </ol>
 
                         <h5>二、社辦工具借用規則</h5>
-                        <p><em>*借用是指將工具帶離社辦，若在社辦使用僅需幹部陪同，不需申請。</em></p>
+                        <p><em>*「借用」是指將工具帶離社辦，若在社辦使用工具不需申請，但須「幹部陪同」。</em></p>
                         <ol>
-                            <li><strong>幹部（含歷屆）</strong>且<strong>無營利</strong> → 填表即可借用。</li>
-                            <li>不符合上述條件 → 須經申請並於約定時間內使用。</li>
+                            <li>若為<strong><u>幹部（含歷屆）</u></strong>且<strong><u>無營利</u></strong> → 填表後即可自行借用。</li>
+                            <li>若不符合上述任意條件 → 須經申請並於約定時間內使用。</li>
                         </ol>
-                        <p><strong>申請方式：</strong></p>
+                        <p><strong>工具（手工具、電子元件開發板、工具書）申請方式：</strong></p>
                         <ol>
-                            <li>透過社團 FB/IG/Email 聯繫幹部，並填表或白板登記：<a href="https://forms.gle/oUtmMCfLUCEqfiAGA" target="_blank" rel="noopener noreferrer">社團工具借用表</a></li>
-                            <li>經副社長審核後，表單狀態會更新為「已審核」。</li>
-                            <li>須依約定時間歸還，毀損須照市價賠償。</li>
+                            <li>透過社團 FB/IG/Email 聯繫當屆幹部，並填寫借用表單或白板登記：<a href="https://forms.gle/oUtmMCfLUCEqfiAGA" target="_blank" rel="noopener noreferrer">社團工具借用表</a></li>
+                            <li>經副社長審核後，會另行通知申請者，且表格之借用狀態亦會變成「已審核」，接著就可以在約定時間進行借用。</li>
+                            <li>使用後須依約定時間歸還，若因個人疏失導致毀損須照市價賠償。（為確保使用權益，建議在借用當下確認工具運作正常。）</li>
                         </ol>
 
                         <h5>三、取用耗材規則</h5>
                         <ol>
-                            <li>以下耗材可免費取用，無須歸還（需幹部同意）：橡皮筋、夾鏈袋、雙面膠、熱熔膠、銲錫、電池、電阻、電容、LED、按鈕、蜂鳴器。</li>
+                            <li>下列耗材於徵得幹部同意後，可以免費取用，無須歸還：橡皮筋、夾鏈袋、雙面膠、泡棉膠、熱熔膠、銲錫、電池、電阻、電解電容、LED、按鈕鍵帽、小按鈕、蜂鳴器。</li>
                             <li>其他材料視同工具借用，用畢須歸還。</li>
                         </ol>
 
                         <h5>四、社辦機器使用規則</h5>
                         <ol>
-                            <li>幹部（含歷屆）且非營利 → 可直接使用。</li>
-                            <li>其他情況 → 須經預約申請後使用。</li>
+                            <li>若為<strong><u>幹部（含歷屆）</u></strong>且<strong><u>非營利</u></strong> → 可直接使用。</li>
+                            <li>若不滿足上述任意條件 → 須經預約申請後使用。</li>
                         </ol>
-                        <p><strong>申請方式：</strong></p>
+                        <p><strong>機器 (3D列印機、雷切機) 申請方式：</strong></p>
                         <ol>
-                            <li>透過 FB/IG/Email 聯繫幹部，並填表：
+                            <li>透過 FB/IG/Email 聯繫當屆幹部，並填寫借用表單：
                                 <ul>
                                     <li><a href="https://docs.google.com/forms/d/1idSizApussDwVE_THCsWz694Few9v4txDCES3DdI014/edit" target="_blank" rel="noopener noreferrer">3D 列印機借用表</a></li>
                                     <li><a href="https://forms.gle/vGmELMThc1xQZbdc6" target="_blank" rel="noopener noreferrer">雷射切割機借用表</a></li>
                                 </ul>
                             </li>
-                            <li>經社長審核後，表單狀態會更新為「已審核」。</li>
-                            <li>3D 列印機以材料公克數計價，詳細規範參考  
+                            <li>經社長審核後，會另行通知申請者，且表格之借用狀態亦會變成「已審核」。此後便可以在約定時間進行使用。</li>
+                            <li>3D 列印機以軟體所報材料公克數計價，詳細規範參考  
                                 <a href="#the_3d_printer"
                                 onClick={(e) => {
                                 e.preventDefault();
@@ -91,8 +93,8 @@ const Equipment = () => {
                                     3D 列印機使用規範
                                 </a>。
                             </li>
-                            <li>雷切機無額外收費，但嚴禁長時間大量使用以免損壞。</li>
-                            <li>使用後須復原場地，若毀損需照價賠償。</li>
+                            <li>使用雷射雕刻機並不會收取額外費用，唯請好好愛惜機器、<strong>嚴禁長時間大量使用</strong>，以免造成機器過熱損壞。</li>
+                            <li>使用後須復原場地，若因個人疏失導致機器毀損，需照價賠償。</li>
                         </ol>
                     </div>
                 </div>

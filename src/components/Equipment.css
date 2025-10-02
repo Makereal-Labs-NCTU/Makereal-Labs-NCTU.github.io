@@ -107,7 +107,7 @@
     margin-bottom: 1.5vw;
     line-height: 2.3vw;
     padding-left: 2vw;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .club_equipment_rules_text ul {
@@ -178,7 +178,7 @@
     margin-bottom: 1.5vw;
     line-height: 2.3vw;
     padding-left: 2vw;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .the_3d_printer_text ol li {
@@ -232,6 +232,10 @@
 }
 
 @media (max-width: 768px) {
+    .equipment_scroll_down_gif {
+        display: none;
+    }
+
     .description { font-size: 4vw; line-height: 5vw; }
 
     .equipment_scroll_down_gif { top: 60vw; width: 10vw; }
