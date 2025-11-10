@@ -11,7 +11,7 @@ const ClubCourse = () => {
         <div className='club_course_whole_page'>
             <ClubLogo />
 
-            <div className='cover'>
+            <div className='club_course_cover'>
                 <div className='cover_text'>
                     <h2 className='cover_title'>社團課程</h2>
                     <p className='cover_subtitle'>成員共同研討，交流頂尖技術</p>
